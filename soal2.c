@@ -119,7 +119,7 @@ int main(){
 			printf("%s %d\n", current->name, current->accepted);
 	}
 
-	printf("\nDITOLAK\n");
+	printf("DITOLAK\n");
 	for(int i = 0; i < length; ++i){
 		struct Item* current = sorted[i];
 		if(current->rejected != 0)
